@@ -1,0 +1,15 @@
+@import url('./main-layout.css');    html {
+      --lumo-primary-color: hsl(214, 85%, 48%);
+      --lumo-primary-color-50pct: hsla(214, 85%, 48%, 0.5);
+      --lumo-primary-color-10pct: hsla(214, 85%, 48%, 0.1);
+
+    }
+
+    [theme~="dark"] {
+      --lumo-base-color: rgb(39, 41, 66);
+      --lumo-primary-color: rgb(55, 58, 89);
+      --lumo-primary-color-50pct: rgba(55, 58, 89, 0.5);
+      --lumo-primary-color-10pct: rgba(55, 58, 89, 0.1);
+      --lumo-body-text-color: hsla(214, 96%, 96%, 0.9);
+
+    }
